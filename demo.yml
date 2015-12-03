@@ -15,4 +15,7 @@ spring:
    naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
    ddl-auto: create-drop
  
- 
+ eureka:
+  client:
+    service-url:
+      defaultZone: discovery:1111/eureka/
